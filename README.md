@@ -42,15 +42,22 @@ Documentation explaining the architecture and controls
 
 
 bash
+
 terraform init
+
 terraform apply
+
 ./verify.sh
+
 
 📊 Output
 
 SSEAlgorithm: AES256
+
 Versioning: Enabled
+
 PublicAccessBlock: All true
+
 Bucket is compliant.
 
 WHY THIS MATTERS
