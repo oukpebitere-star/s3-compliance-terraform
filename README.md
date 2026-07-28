@@ -1,4 +1,5 @@
 S3 Security Compliance Automation (Terraform + AWS CLI)
+
 This project demonstrates how to deploy secure AWS S3 buckets using Terraform and verify compliance with key security controls using an automated Bash script.
 
 🔐 Controls Implemented
@@ -26,6 +27,7 @@ IAM roles & least privilege
 S3 security best practices
 
 📁 What This Project Includes
+
 Terraform code to deploy secure S3 buckets
 
 Automated compliance verification script (verify.sh)
@@ -35,6 +37,7 @@ Screenshots of successful deployment and compliance checks
 Documentation explaining the architecture and controls
 
 🚀 How to Run
+
 bash
 terraform init
 terraform apply
