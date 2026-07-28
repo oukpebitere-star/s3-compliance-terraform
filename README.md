@@ -26,6 +26,7 @@ IAM roles & least privilege
 
 S3 security best practices
 
+
 📁 What This Project Includes
 
 Terraform code to deploy secure S3 buckets
@@ -36,21 +37,24 @@ Screenshots of successful deployment and compliance checks
 
 Documentation explaining the architecture and controls
 
+
 🚀 How to Run
+
 
 bash
 terraform init
 terraform apply
 ./verify.sh
 
-📊 Sample Output
-Code
+📊 Output
+
 SSEAlgorithm: AES256
 Versioning: Enabled
 PublicAccessBlock: All true
 Bucket is compliant.
 
 WHY THIS MATTERS
+
 Misconfigured S3 buckets are one of the most common causes of cloud data breaches.
 This project demonstrates how to enforce encryption, versioning, and public access restrictions using Terraform and verify compliance automatically using AWS CLI.
 It reflects real‑world cloud security engineering practices used in GRC, DevSecOps, and cloud audit roles.
